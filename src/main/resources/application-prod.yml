@@ -1,0 +1,10 @@
+server:
+  port: 80
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+logging.level:
+  org.hibernate.SQL: info

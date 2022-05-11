@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    default: dev
+
+  h2:
+    console:
+      enabled: true
+
+  datasource:
+    url: jdbc:h2:mem:toy-box
+    username: root
+    password: samin$17
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+hibernate:
+  default_batch_fetch_size: 100
+
+file:
+  dir: C:/upload/file/
+  temp: C:/upload/temp/
