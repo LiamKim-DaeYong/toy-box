@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <title>Layout page</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/normalize.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/layout.css}">
+</head>
+<body>
+    <header layout:replace="~{layout/header :: header}"></header>
+    <section layout:fragment="content"></section>
+    <footer layout:replace="~{layout/footer :: footer}"></footer>
+</body>
+</html>
