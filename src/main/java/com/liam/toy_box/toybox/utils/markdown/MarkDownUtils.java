@@ -1,4 +1,4 @@
-package com.liam.toy_box.toybox.markdown;
+package com.liam.toy_box.toybox.utils.markdown;
 
 import org.commonmark.node.Node;
 import org.commonmark.parser.Parser;

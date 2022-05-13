@@ -1,6 +1,6 @@
-package com.liam.toy_box.toybox.markdown.controller;
+package com.liam.toy_box.toybox.controller;
 
-import com.liam.toy_box.toybox.markdown.MarkDownUtils;
+import com.liam.toy_box.toybox.utils.markdown.MarkDownUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

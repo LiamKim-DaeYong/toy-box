@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
     <header layout:fragment="header">
         <div class="header">
-            <h1>Toy Box</h1>
+            <h1>
+                <a href="/">Toy Box</a>
+            </h1>
             <p>Resize the browser window to see the responsive effect.</p>
         </div>
 
@@ -11,7 +14,7 @@
             <a href="#">Link</a>
             <a href="#">Link</a>
 
-            <a href="#" style="float:right">Link</a>
+            <a href="/login" style="float:right">Login</a>
         </div>
     </header>
 </html>

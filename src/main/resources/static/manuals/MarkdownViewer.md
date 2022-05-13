@@ -5,10 +5,11 @@ markdown을 html로 파싱하기 위해 commonmark-java library를 활용 [commo
 
 ## 코드 구성
 1. MarkDownController
+
 ```java
 package com.liam.toy_box.toybox.markdown.controller;
 
-import com.liam.toy_box.toybox.markdown.MarkDownUtils;
+import com.liam.toy_box.toybox.utils.markdown.MarkDownUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
