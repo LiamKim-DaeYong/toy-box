@@ -1,4 +1,4 @@
-package com.liam.toy_box.toybox;
+package com.liam.toy_box.toybox.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
